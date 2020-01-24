@@ -1,0 +1,51 @@
+CEC CS 18 c04
+Adwaith Sivan
+
+--------------------------------
+#1:Learn how to use Git
+---------------------------------
+Command/Shell script/Program name : gitscript.txt
+
+---------------------------------
+
+Input: test.txt
+---------------
+
+--------------------------------
+Output: None
+
+
+-------------------
+Remarks if any: 
+->used to create a repo under the name "cs232" and pushed the readme file and test.txt into it
+->used git from terminal for the uploading
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:linux commands
+Command/Shell script/Program name : gitscript.txt
+
+---------------------------------
+
+Input: num.txt,work.txt
+---------------
+
+--------------------------------
+Output: None
+
+
+-------------------
+Remarks if any: 
+-> the script file is called gitscript.txt
+
+#3:
+
+#4:
+
+#5:
+
+
+
