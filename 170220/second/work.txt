@@ -1,0 +1,86 @@
+Script started on Monday 17 February 2020 11:12:51 AM IST
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ sssh[K[Kh ce[Ks18c02[K4@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c04@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 10:01:56 2020 from 192.168.0.30
+$ ls
+examples.desktop
+$ put -r first
+-sh: 2: put: not found
+$ c pwd
+/home/cs18c04
+$ cd  mkduir   ir tets  st
+$ cd test
+$ ls
+$ cd ../
+$ ls
+examples.desktop  test
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ rsync -r /ditr[K[Kr1 /dir2
+rsync: link_stat "/dir1" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ rsync -r /dir1 /dir2[1Pdir2[1P[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ cd dir1
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir1[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir1[00m$ ls
+sample.txt
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir1[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir1[00m$ lscd dir1rsync -r dir1 dir2[11Pcd dir1[K2
+bash: cd: dir2: No such file or directory
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir1[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir1[00m$ cd ../
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ cd dir2
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir2[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir2[00m$ ls
+[0m[01;34mdir1[0m  test.txt
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir2[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir2[00m$ cd di2[Kr1
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir2/dir1[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir2/dir1[00m$ ls
+sample.txt
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir2/dir1[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir2/dir1[00m$ cd../[K[K[K ../
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220/dir2[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220/dir2[00m$ cd ../
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ scp
+usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ ssh cs18c04@192.10[K69[K[K68.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c04@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 11:22:40 2020 from 192.168.0.90
+$ scp work.txt cs18c04@193 2.`1  2 168.0.30: \ /home/cs                                           pwd
+/home/cs18c04
+$ scp wokr  rk.txt cs19 8c04@192.168.0,.  .30: hokme   me/cs119  8c902   04
+home/cs18c04: No such file or directory
+$ scp wolkr   rk.txt cs18c04@192.168.0.30:"  /home/cs18c04
+cp: cannot stat 'work.txt': No such file or directory
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c04@192.168.0.30's password: 
+scp: .: not a regular file
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ exit
+exit
+
+Script done on Monday 17 February 2020 11:27:26 AM IST

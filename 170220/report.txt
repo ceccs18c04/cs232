@@ -1,0 +1,85 @@
+CEC CS 18 C04
+Adwaith Sivan
+-------------------------------
+
+Date:17/02/2020
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#2:
+-------------------------------------
+Date : 17/02/2020
+-------------------------------------
+
+#3:Networking Task
+-------------------------------------
+Command/Shell script/Program name:work.txt
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+Processes Used:
+
+ifconfig (interface configuration)
+Route- Display routing table
+Resolve
+
+-------------------
+Remarks if any:
+
+-------------------------------------
+Date: 17/01/2020
+------------------------------------
+#4:SSH SCP
+-------------------------------------
+Command/Shell script/Program name:work.txt
+-------------------------------------
+Input: (If relevant)
+-------------------------------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+--------------------------------
+Processes Used:
+SCP- To transfer one file to server
+SSH- To remotely acces computer
+
+ssh username@address
+
+rsync- to sync between directories
+---------------------------------
+
+Remarks if any: 
+---------------------------------
+
+
+#5:
+
+-------------------
+Remarks if any:
+
+
+

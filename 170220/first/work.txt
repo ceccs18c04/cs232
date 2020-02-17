@@ -1,0 +1,102 @@
+Script started on Monday 17 February 2020 11:03:50 AM IST
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ ifconfig 
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::a8db:c203:fa3a:62b4/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:211358 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13214 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:41387973 (41.3 MB)  TX bytes:1597517 (1.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:39476 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:39476 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2611368 (2.6 MB)  TX bytes:2611368 (2.6 MB)
+
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ ifconfig et[Knp1s0
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::a8db:c203:fa3a:62b4/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:212363 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13214 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:41463640 (41.4 MB)  TX bytes:1597517 (1.5 MB)
+
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ ifconfig enp1s0[K-a
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::a8db:c203:fa3a:62b4/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:212755 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13214 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:41492739 (41.4 MB)  TX bytes:1597517 (1.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:39636 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:39636 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2621928 (2.6 MB)  TX bytes:2621928 (2.6 MB)
+
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ ifconfig[K[K[K[K[K[K[K[Ksudp [K[Kon ifconfig interfce[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kroute
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     *               255.255.255.0   U     100    0        0 enp1s0
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ route -a
+route: invalid option -- 'a'
+Usage: route [-nNvee] [-FC] [<AF>]           List kernel routing tables
+       route [-v] [-FC] {add|del|flush} ...  Modify routing table for AF.
+
+       route {-h|--help} [<AF>]              Detailed usage syntax for specified AF.
+       route {-V|--version}                  Display version/author and exit.
+
+        -v, --verbose            be verbose
+        -n, --numeric            don't resolve names
+        -e, --extend             display other/more information
+        -F, --fib                display Forwarding Information Base (default)
+        -C, --cache              display routing cache instead of FIB
+
+  <AF>=Use '-A <af>' or '--<af>'; default: inet
+  List of possible address families (which support routing):
+    inet (DARPA Internet) inet6 (IPv6) ax25 (AMPR AX.25) 
+    netrom (AMPR NET/ROM) ipx (Novell IPX) ddp (Appletalk DDP) 
+    x25 (CCITT X.25) 
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ route -a[Kn
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 enp1s0
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ cat /etc/resolv.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_seq=1 ttl=64 time=0.608 ms
+64 bytes from 192.168.0.30: icmp_seq=2 ttl=64 time=0.743 ms
+64 bytes from 192.168.0.30: icmp_seq=3 ttl=64 time=0.739 ms
+64 bytes from 192.168.0.30: icmp_seq=4 ttl=64 time=0.732 ms
+64 bytes from 192.168.0.30: icmp_seq=5 ttl=64 time=0.733 ms
+64 bytes from 192.168.0.30: icmp_seq=6 ttl=64 time=0.719 ms
+64 bytes from 192.168.0.30: icmp_seq=7 ttl=64 time=0.651 ms
+64 bytes from 192.168.0.30: icmp_seq=8 ttl=64 time=0.717 ms
+64 bytes from 192.168.0.30: icmp_seq=9 ttl=64 time=0.731 ms
+^C
+--- 192.168.0.30 ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8184ms
+rtt min/avg/max/mdev = 0.608/0.708/0.743/0.045 ms
+]0;s4c1@ceclab2-H110M-S2: ~/ceccs18cs04/cs232/170220[01;32ms4c1@ceclab2-H110M-S2[00m:[01;34m~/ceccs18cs04/cs232/170220[00m$ exit
+exit
+
+Script done on Monday 17 February 2020 11:12:05 AM IST
