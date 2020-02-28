@@ -1,0 +1,24 @@
+CEC CS 18 C04
+Adwaith Sivan
+-------------------------------
+
+Date:28/02/2020
+--------------------------------
+#1: Tranfer files using sftp
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: sftp username@domain
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+
+

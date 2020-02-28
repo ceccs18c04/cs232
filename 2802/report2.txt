@@ -1,0 +1,29 @@
+CEC CS 18 C04
+Adwaith Sivan
+-------------------------------
+
+Date:28/02/2020
+--------------------------------
+#1: Create our own webpage at our server
+---------------------------------
+-> To fetch the smaple index
+	wget http://192.168.0.30/cs17d/cs17d00
+	# To put the page to the server
+	SFTP
+	# to edit the contents of .html file
+	nano
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: The page can be viewed at http://192.168.0.30/cs18c04/cs18c04
+
+
+-------------------
+Remarks if any:
+
+
+
